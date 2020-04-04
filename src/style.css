@@ -1,0 +1,379 @@
+/*
+* Copyright (c) https://css-tricks.com/
+* Copyright (c) https://www.cssmatic.com/
+* all right reserved since i got the media and pictures randomly from different website which i don't remember
+*/
+
+/* About Us css  */
+.about-section{
+	position:relative;
+    padding:120px 0px;
+}
+
+.about-section .content-column{
+	position:relative;
+	margin-bottom:40px;
+}
+
+.about-section .content-column .inner-column{
+	position:relative;
+	padding-top:50px;
+	padding-right:100px;
+}
+
+.about-section .content-column .text{
+	position:relative;
+	color:#777777;
+	font-size:15px;
+	line-height:2em;
+	margin-bottom:40px;
+}
+
+
+.about-section .image-column{
+	position:relative;
+	margin-bottom:50px;
+}
+
+.about-section .image-column .inner-column{
+	position:relative;
+	padding:40px 40px 0px 0px;
+	margin-left:50px;
+}
+
+.about-section .image-column .inner-column:after{
+	position:absolute;
+	content:'';
+	right:0px;
+	top:0px;
+	left:40px;
+	bottom:100px;
+	z-index:-1;
+	border:2px solid #10c3fa;
+}
+
+.about-section .image-column .inner-column .image{
+	position:relative;
+}
+
+.about-section .image-column .inner-column .image:before{
+	position:absolute;
+	content:'';
+	left:-50px;
+	bottom:-50px;
+	width:299px;
+	height:299px;
+	background:url(https://s3-ap-southeast-1.amazonaws.com/images.humanresourcesonline.net/wp-content/uploads/2018/01/nicole-jan-2018-Spacial-awareness-photobook-lead-700x467.jpg) no-repeat;
+}
+
+.about-section .image-column .inner-column .image img{
+	position:relative;
+    width:100%;
+    height: 500px;
+	display:block;
+}
+
+.about-section .image-column .inner-column .image .overlay-box{
+	position:absolute;
+	left:40px;
+	bottom:48px;
+}
+
+.about-section .image-column .inner-column .image .overlay-box .year-box{
+	position:relative;
+	color:#10c3fa;
+	font-size:24px;
+	font-weight:700;
+	line-height:1.4em;
+	padding-left:125px;
+}
+
+.about-section .image-column .inner-column .image .overlay-box .year-box .number{
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:110px;
+	height:110px;
+	color:#10c3fa;
+	font-size:68px;
+	font-weight:700;
+	line-height:105px;
+	text-align:center;
+	background-color:#ffffff;
+	border:1px solid #000000;
+}
+.about-section .btn-style-three:before {
+    position: absolute;
+    content: '';
+    left: 10px;
+    top: 10px;
+    z-index: -1;
+    right: -10px;
+    bottom: -10px;
+    background: url(https://i.ibb.co/DKn55Qz/pattern-1.jpg) repeat;
+}
+.about-section .btn-style-three:hover {
+    color: #ffffff;
+    background: #10c3fa;
+}
+.about-section .btn-style-three {
+    position: relative;
+    line-height: 24px;
+    color: #252525;
+    font-size: 15px;
+    font-weight: 700;
+    background: none;
+    display: inline-block;
+    padding: 11px 40px;
+    background-color: #ffffff;
+    text-transform: capitalize;
+    border: 2px solid #10c3fa;
+    font-family: 'Arimo', sans-serif;
+}
+.sec-title2{
+	color:#fff;
+}
+.sec-title {
+    position: relative;
+    padding-bottom: 40px;
+}
+.sec-title .title {
+    position: relative;
+    color: #10c3fa;
+    font-size: 18px;
+    font-weight: 700;
+    padding-right: 50px;
+    margin-bottom: 15px;
+    display: inline-block;
+    text-transform: capitalize;
+}
+.sec-title .title:before {
+    position: absolute;
+    content: '';
+    right: 0px;
+    bottom: 7px;
+    width: 40px;
+    height: 1px;
+    background-color: #bbbbbb;
+}
+  /* :: media queries NOT DONE YET :: it's aready responsive but for mobile screen we have to edit this media part */
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Jobs and open positions css */
+
+.Job-text-title {
+    background-image: url('https://syscocreators.com/images/slider/banner2.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+
+
+}
+.job-container {
+    margin: 20px 2% 0 2%;
+}
+.Job-text-title {
+    text-align: center;
+    height: 200px;
+}
+.Job-text-title h2{
+    color: #10c3fa;
+}
+
+
+
+/* Core Value css */
+/* :: media queries NOT DONE YET :: it's aready responsive but for mobile screen we have to edit this media part */
+
+.core-values img{
+    max-width: 100%;
+}
+
+.core-values-head {
+  margin-bottom: 70px;
+}
+
+.core-values-head h6{
+  color: #f05907;
+  position: relative;
+  display: inline-block;
+  text-transform: capitalize;
+}
+
+.core-values-head h6:after, .core-values-head h6:before{
+  position: absolute;
+  content: "";
+  width: 50px;
+  height: 3px;
+  background: #f05907;
+  top: 50%;
+}
+
+.core-values-head h6:after{
+  right: 120%;
+}
+
+.core-values-head h6:before{
+  left: 120%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 98%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 0;
+}
+.core-values {
+    background-color: #fff;
+    padding: 0 0 15px 0;
+    min-height: 100%;
+    max-width: 98.5%;
+}
+
+.core-values .item {
+  background-color: #10c3fa;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  margin: 2%;
+}
+
+.core-values .item .more {
+  position: absolute;
+  right: 30px;
+  bottom: 20px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+  color: #f05907;
+  font-size: 19px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  line-height: 40px;
+  text-align: center;
+  transform: translate(0 , 100px);
+  transition: all 0.3s ease-in-out;
+}
+
+.core-values .item:hover .more {
+  transform: translate(0 , 0)
+}
+
+.core-values .item:hover .img img {
+  transition: all 0.4s ease;
+}
+
+.core-values .item:hover .img img {
+  transform: rotate(-5deg) scale(1.2 , 1.2);
+}
+
+.core-values .item .img {
+  clip-path: polygon(0 0, 100% 0, 100% 60%, 0 100%, 0 65%);
+}
+
+.core-values .item .info {
+  padding: 0 30px 30px 30px;
+  position: relative;
+}
+
+.core-values .item .info .sign-text {
+  position: absolute;
+  left: calc(50% - 25px);
+  top: -100px;
+  width: 70px;
+  height: 70px;
+  line-height: 20px;
+  text-align: center;
+  background-color: #f05907;
+  color: #fff;
+  padding: 5px;
+  transform: rotate(45deg);
+}
+
+.core-values .item .info .sign-text span {
+    transform: rotate(-45deg);
+    display: inline-block;
+    margin: 10px auto auto -16px;
+}
+.core-values .item .info h5:hover {
+  color: #111110;
+}
+
+.core-values .item .info .read-more{
+  margin-top: 20px;
+  color: #f05907;
+}
+
+.core-values .item:hover{
+  background:#f91942;
+  box-shadow:0 8px 20px 0px rgba(0, 0, 0, 0.2);
+  -webkit-transition: all .5s ease 0;
+  transition: all .5s ease 0;
+  transition: all 0.5s ease 0s;
+  }
+
+/* Video Banner css  */
+/* :: media queries NOT DONE YET :: it's aready responsive but for mobile screen we have to edit this media part */
+
+.video-header-main {
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  background-color: #7d9ff6;
+  min-height: 60vh;
+  padding: 15px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  -webkit-box-shadow: 14px 13px 0px -5px rgba(237,7,237,1);
+  -moz-box-shadow: 14px 13px 0px -5px rgba(237,7,237,1);
+  box-shadow: 14px 13px 0px -5px rgba(237,7,237,1);
+}
+.video-header-main h4,p {
+  color: #ffffff;
+}
+
+.video-banner {
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    min-height: 90vh;
+}
+
+.video-banner video {
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  background: #bdc3c7;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block;
+}
+  /* :: media queries NOT DONE YET :: it's aready responsive but for mobile screen we have to edit this media part */
+@media (max-width: 480px) {
+  .video-banner video {
+     height: 160px;
+   }
+}
+
+
+
+
+.footer {
+    padding: 10px;
+    background-color: rgb(0, 21, 41);
+    color: #ffffff;
+    z-index: 100;
+    text-align: center;
+}
+
+.footer p {
+    margin-bottom: 0;
+    font-family: circular-light;
+}
