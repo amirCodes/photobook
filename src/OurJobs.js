@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import 'antd/dist/antd.css';
 import './index.css';
 import './style.css';
@@ -93,10 +93,10 @@ class OurJobs extends React.Component {
         dataIndex: 'jobTitle',
         render: (text, row, index) => {
           if (index < 14) {
-            return <a>{text}</a>;
+            return <a href="https://www.photobookworldwide.com/careers">{text}</a>;
           }
           return {
-            children: <a>{text}</a>,
+            children: <a href="https://www.photobookworldwide.com/careers">{text}</a>,
             props: {
               colSpan: 15,
             },

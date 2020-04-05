@@ -4,7 +4,7 @@ import './style.css';
 const Footer = () => {
   return (
     <div className="footer">
-      <p>©PhotoBook Front End Developer Assessment</p>
+      <p>©PhotoBook Worldwide</p>
     </div>
   )
 };

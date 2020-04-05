@@ -20,7 +20,7 @@ function AboutUs() {
                                 <div className="text">
                                     We’re one of the most avant-garde players in the industry, consistently implementing new tech and innovative practices to push ourselves further.
                                 </div>
-                                <a href="#" className="theme-btn btn-style-three">Read More</a>
+                                <a href="www.photobook.com" className="theme-btn btn-style-three">Read More</a>
                             </div>
                         </div>
 
@@ -28,7 +28,7 @@ function AboutUs() {
                         <div className="image-column col-md-6 col-sm-12 col-xs-12">
                             <div className="inner-column " data-wow-delay="0ms" data-wow-duration="1500ms">
                                 <div className="image">
-                                    <img src="https://i.ibb.co/vQbkKj7/about.jpg" alt="" />
+                                    <img src="https://www.office2u.my/image/catalog/Blog/office2u_3.jpg" alt="" />
                                     <div className="overlay-box">
                                         <div className="year-box"><span className="number">15</span>Years <br /> Working <br />Experience</div>
                                     </div>
