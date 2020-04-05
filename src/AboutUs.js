@@ -13,7 +13,7 @@ function AboutUs() {
                             <div className="inner-column">
                                 <div className="sec-title">
                                     <div className="title">WHO WE ARE</div>
-                                    <h2>We Are Leading <br /> The Interiore Design </h2>
+                                    <h2>We Are Leading <br /> The E-Commerce </h2>
                                 </div>
                                 <div className="text">
                                     Photobook Worldwide is the leading e-commerce company in South East Asia that provides a unique experience in preserving meaningful memories through fully personalisable Photo Albums and Photo Products. Headquartered in Malaysia, we have offices located in Canada, Australia, Philippines, and Thailand catering to the global market.                            </div>
